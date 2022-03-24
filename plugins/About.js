@@ -2,7 +2,7 @@ let handler  = async (m, { itsu, usedPrefix: _p }) => {
       
 let arr = []
 for (let i = 0; i < 404; i++) arr.push({ productId: '4072560079514110' }) 
-let list = await itsu.prepareMessageFromContent(m.chat, { listMessage: { title: 'ꜱɪᴍᴩʟᴇ ᴡʜᴀᴛꜱᴀᴩᴩ ʙᴏᴛ',  description: `- _*About me*_\n\n- Owner : Yuta\n- Age: 15/ 9th grade class\n - Github: FA\n\n thx.` , listType: 2, productListInfo: { productSections: [{ title: 'github: Rlxfly', products: arr }], headerImage: { productId: '4072560079514110', jpegThumbnail: thumb3 }, businessOwnerJid: '17608914335@s.whatsapp.net' }, footerText: `© ${itsu.getName('17608914335@s.whatsapp.net')}` }}, { quoted: m })
+let list = await itsu.prepareMessageFromContent(m.chat, { listMessage: { title: 'WhatsApp Bot',  description: `- _*About me*_\n\n- Owner : DinXYZ\n- Age: 15/ 9th grade class\n - Github: :v\n\n thx.` , listType: 2, productListInfo: { productSections: [{ title: 'Psatir Handal :v', products: arr }], headerImage: { productId: '4072560079514110', jpegThumbnail: thumb3 }, businessOwnerJid: '6287819654911@s.whatsapp.net' }, footerText: `© ${itsu.getName('6287819654911@s.whatsapp.net')}` }}, { quoted: m })
 itsu.relayWAMessage(list, { waitForAck: true })
 }
 
