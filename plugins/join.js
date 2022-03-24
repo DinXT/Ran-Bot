@@ -11,15 +11,15 @@ let handler = async (m, { itsu, text, usedPrefix }) => {
         if (now < global.DATABASE.data.chats[res.gid].expired) global.DATABASE.data.chats[res.gid].expired += jumlahHari
         else global.DATABASE.data.chats[res.gid].expired = now + jumlahHari
     })
-    await itsu.sendMessage(res.gid, `Halo,\n *${itsu.user.name}* adalah bot whatsapp yang dibangun dengan Nodejs, Saya baru saja bergabung di grup ini diundang oleh wa.me/${m.sender.split`@`[0]}
+    await itsu.sendMessage(res.gid, `Halo,\n Aku adalah bot whatsapp yang siap membantu, Saya baru saja bergabung di grup ini diundang oleh wa.me/${m.sender.split`@`[0]}
     
 ketik *#menu* untuk melihat daftar perintah,Dan Maaf Jika Fiturnya Masih Sedikit Karena Sedang Dalam Tahap Pengembangan`, MessageType.text, { contextInfo: { externalAdReply :{
        mediaUrl: ' ',
        mediaType: 4,
-       title: 'Ran-Bot',
-       body: 'Recode WhatsApp Bot',
+       title: 'WhatsApp Bot',
+       body: 'Hwlo bnah',
        thumbnailUrl: 'https://i.bandori.party/u/c/art/a/1787Ran-Mitake-Cool-ALcsqX.png',
-sourceUrl: 'https://wa.me/17608914335?text=Assalamualaikum'
+sourceUrl: 'https://wa.me/6287819654911?text=Bang'
 }}})
 }
 handler.help = ['join <linkgrup>']
