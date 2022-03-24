@@ -1,7 +1,7 @@
 let handler  = async (m, { itsu, usedPrefix: _p }) => {
 prep = itsu.prepareMessageFromContent(m.chat, { orderMessage: { 
-itemCount: 999999999999, status: 1,
-message: `Ori:http://github.com/Rlxfly/bot-tzy\nRecode:https://github.com/FahriAdison/Ran-Bot\n\nDon't forgot give star and forks this repo:)\nDon't Delete The Ori And Recode Github`,
+itemCount: 277353, status: 1,
+message: `http://github.com/Rlxfly\nRecode:https://github.com/FahriAdison\n\nSupport para creator sc ny bang\njangan lupa donasi juga 😅`,
 orderTitle: 'B',
 sellerJid: '0@s.whatsapp.net',
 thumbnail: global.thumb
