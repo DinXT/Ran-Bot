@@ -15,7 +15,7 @@ const anu = {
                           }
                         }
                       }
-itsu.sendMessage(m.chat, ' ">//<" ',
+itsu.sendMessage(m.chat, ' "DinXYZ." ',
 MessageType.text, {quoted: anu, contextInfo:{"forwardingScore":999, "isForwarded": true}})
 }
 
