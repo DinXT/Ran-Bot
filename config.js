@@ -39,11 +39,11 @@ function kyun(seconds){
 }
 					runtime = process.uptime()
 					teks = `${kyun(runtime)}`
-global.owner = ['17608914335', '0' , '436506665652696', '6283820073017', '6289637133848'] // Put your number here
-global.fake = ['17608914335', '0', '0', '0']
-global.fakeNum = ['17608914335','0' ]
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = ['6287819654911'] // Put your number here
+global.fake = ['6287819654911', '0', '0', '0']
+global.fakeNum = ['6287819654911','0' ]
+global.mods = ['6281380674817'] // Want some help?
+global.prems = ['6281380674817'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   lol: 'https://api.lolhuman.xyz',
@@ -68,19 +68,19 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botwm = `©Ran_2022`//UBAH JADI NAMAMU
-global.botdate = `╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────`
-global.packname =  `Ran`
-global.author = `Mitake`
-global.wait = 'Subscribe Ya\n bit.ly/Papah-Chan'
+global.botwm = `DinXYZ`//UBAH JADI NAMAMU
+global.botdate = ` ${time}\n ${week} ${date}`
+global.packname =  `DinXYZ`
+global.author = `Stickers`
+global.wait = 'Bot bimlek 😅'
 global.dga = 'Jika Ingin Membeli Limit\nSilahkan Ketik #buy 1'
 global.thumb = tum
 global.thumb2 = tum2
 global.thumb3 = tum3
-global.wm = `©Ran`
+global.wm = `DinXYZ`
 
 global.runtime = teks
-global.multiplier = 69 // The higher, The harder levelup
+global.multiplier = 89 // The higher, The harder levelup
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
