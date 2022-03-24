@@ -791,7 +791,7 @@ global.dfail = (type, m, itsu) => {
 	let syappa = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? itsu.user.jid : m.sender
 	let namae = itsu.getName(syappa)
   let tag = `@${m.sender.split('@')[0]}`
-let fot = `Made by @${'17608914335'.split('@')[0]}`
+let fot = `Moderator : @${'6287819654911'.split('@')[0]}`
   let owr = {
     rowner: 'https://telegra.ph/file/2848948d64ea43302c882.png'
   }[type]
@@ -835,13 +835,13 @@ Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
           "title": msg,
           "description": des,
           "footerText": global.botdate,
-          "buttonText": "Ran_2022",
+          "buttonText": "DinXYZ",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `MY OWNER`,
-                                         "description": "Owner Ran",
+                                         "description": "Owner Bot",
                                          "rowId": ".owner"
                                     }, {
                                          "title": `ABOUT`,
