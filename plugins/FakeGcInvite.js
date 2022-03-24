@@ -14,8 +14,8 @@ const anu = {
 		"groupInviteMessage": {
 			"groupJid": "6285240750713-1610340626@g.us",
 			"inviteCode": "mememteeeekkeke",
-			"groupName": "P", 
-            "caption": "Hi lort", 
+			"groupName": "DinXYZ", 
+            "caption": "WhatsApp Bot.", 
             'jpegThumbnail': thumb
 		}
 	}
